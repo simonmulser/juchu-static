@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('img/comingsoonmuster_300x302.jpg');
+    background-repeat: repeat;
+    margin: 0;
+    width: 100%;
+    font-family: 'Pompiere', cursive;
+}
+
+#content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    content: url('img/logo_175x175.png')
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #00cc66;
+    color: #00cc66;
+    font-size: 2em;
+    padding: 5px 10px;
+}
+
+@media only screen and (min-width: 700px) {
+    #logo {
+        content: url('img/logo_250x250.png')
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    body {
+        background-image: url('img/comingsoonmuster_400x403.jpg');
+    }
+}
