@@ -1,0 +1,3 @@
+docker build -t juchu-coming-soon .
+
+docker run -d --name juchu-coming-soon -e "VIRTUAL_HOST=juchu.wien,www.juchu.wien" -e "LETSENCRYPT_HOST=juchu.wien,www.juchu.wien" -e "LETSENCRYPT_EMAIL=simonmulser@gmail.com" juchu-coming-soon
