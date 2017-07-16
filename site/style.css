@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-image: url('img/comingsoonmuster_300x302.jpg');
+    background-image: url('img/comingsoonmuster_400x403.jpg');
     background-repeat: repeat;
     margin: 0;
     width: 100%;
@@ -40,9 +40,5 @@ h1 {
 
     h1 {
         font-size: 3em;
-    }
-
-    body {
-        background-image: url('img/comingsoonmuster_400x403.jpg');
     }
 }
